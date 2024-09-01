@@ -1,0 +1,70 @@
+@import url(./variables.css);
+
+body {
+    background-color: #ffe6e6; 
+    color: #333;
+    font-family: var(--gerenal-font);
+    margin: 0;
+    padding: 0;
+}
+.img-gato{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+footer {
+    text-align: center;
+    font-size: 1.5rem;
+}
+.nav-link {
+    color: white;
+    transition: color 0.3s, transform 0.3s; 
+    font-size: 1.4rem;
+}
+
+.nav-link:hover {
+    color: lightgray; 
+    transform: scale(1.1);
+}
+section{
+    text-align: center;
+}
+.skills-flex {
+    display: flex;
+    margin-top: 1.5rem;
+}
+.skills-section {
+    flex: 1;
+    font-size: 1.45rem;
+}
+ul {
+    list-style-position: inside;
+}
+button.btn {
+    background-color: #343a40;
+    color: #fff;
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 1.25rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+button.btn:hover {
+    background-color: #bd2130; 
+    transform: scale(1.05); 
+}
+button.btn:active {
+    background-color: #941a24; 
+    transform: scale(1);
+}
+hr{
+    width: 80%; 
+    height: 0.3rem; 
+    background-color: #bd2130; 
+    border: none; 
+    margin: 20px auto;
+}
+.card {
+    width: 80%;
+    margin: 0 auto; 
+    padding: 1rem;
+}
